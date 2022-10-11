@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace PluginTwo
 {
-    public class GHUInfo : GH_AssemblyInfo
+    public class PluginTwoUInfo : GH_AssemblyInfo
     {
-        public override string Name => "GHUI";
+        public override string Name => "PluginTwo";
 
         public override Bitmap Icon =>
             //Return a 24x24 pixel bitmap to represent this GHA library.
